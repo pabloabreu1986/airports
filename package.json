@@ -1,12 +1,12 @@
 {
-  "name": "07-rest-server-express",
+  "name": "airports",
   "version": "1.0.0",
   "description": "Express Rest Server",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server",
-    "test": "echo \"Negativo Manolo: Pablito no ha hecho las pruebas, algún día...  ;)\""
+    "test": "echo \"Nadie ha hecho las pruebas, algún día...  ;)\""
   },
   "author": "",
   "license": "ISC",
