@@ -7,7 +7,7 @@ const airports_v2 = require('../../assets/airports_v2.json');
 const httpStatusCodes = require('http-status-codes');
 
 //obtiene todos los aeropuertos según la versión del JSON
-app.get('/airports/:id', (req, res) => {
+app.get('/getairports/:id', (req, res) => {
 
   res.json({
     status: httpStatusCodes.OK,
